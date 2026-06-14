@@ -1,5 +1,6 @@
 import "../Style/Hero.css";
 import profileImage from "../assets/Profile.jpeg";
+import resumePDF from "../assets/Junaid_Ahmed_BBA.pdf";
 
 export default function Hero() {
   return (
@@ -28,7 +29,11 @@ export default function Hero() {
             View Projects
           </a>
 
-          <a href="/Junaid_Ahmed_BBA.pdf" download className="btn-secondary">
+          <a
+            href={resumePDF}
+            download="Junaid_Ahmed_BBA.pdf"
+            className="btn-secondary"
+          >
             Download Resume
           </a>
         </div>

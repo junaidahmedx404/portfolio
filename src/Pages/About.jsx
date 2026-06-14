@@ -22,7 +22,7 @@ export default function About() {
         </div>
 
         <div className="about-card">
-          <h3>Education</h3>
+          <h3>Current Education</h3>
           <p>
             Bachelor of Business Administration (BBA)
           </p>

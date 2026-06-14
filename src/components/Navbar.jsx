@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import resumePDF from "../assets/Junaid_Ahmed_BBA.pdf";
 import "../Style/Navbar.css";
 
 export default function Navbar() {
@@ -32,9 +33,9 @@ export default function Navbar() {
 
           <li>
             <a
-              href="/Junaid_Ahmed_BBA.pdf"
+              href={resumePDF}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="resume-btn"
               onClick={() => setMenuOpen(false)}
             >
