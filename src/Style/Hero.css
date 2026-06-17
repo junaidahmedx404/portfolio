@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 8%;
+  margin-top: 100px;
   background: #0a0a0a;
   color: #fff;
   overflow: hidden;
@@ -132,6 +133,7 @@
   .hero {
     gap: 50px;
     padding-top: 100px;
+    margin-top: 0;
   }
 
   .hero-title {
@@ -151,6 +153,7 @@
     text-align: center;
     justify-content: center;
     padding: 120px 8% 60px;
+        margin-top: 0;
   }
 
   .hero-content {
